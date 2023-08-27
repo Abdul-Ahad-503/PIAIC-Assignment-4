@@ -33,6 +33,7 @@
     for(var i =0; i<numbers.length; i++){
         if(numbers[i]%2==0){
             numbers.splice(i,1);
+            i--;
         }   
     }
     console.log(numbers);
